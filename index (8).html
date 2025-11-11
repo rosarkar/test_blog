@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit's Tech Blog | Latest in Blockchain & AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">Rohit's Blog</div>
+            <nav class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="article-bitcoin.html">Bitcoin ATH</a>
+                <a href="article-ai.html">AI Trends</a>
+                <a href="article-defi.html">DeFi 2025</a>
+                <a href="about.html">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Insights on Blockchain, AI, and the Future of Tech</h1>
+            <p>Welcome! Exploring the intersection of technology, finance, and innovation.</p>
+        </div>
+    </section>
+
+    <!-- Article Grid -->
+    <main class="container">
+        <div class="articles-grid">
+            <!-- Featured Article -->
+            <article class="article-card featured">
+                <div class="article-image bitcoin-bg">₿</div>
+                <div class="article-content">
+                    <span class="category">BLOCKCHAIN</span>
+                    <h2><a href="article-bitcoin.html">Bitcoin Hits New All-Time High as Institutional Adoption Accelerates</a></h2>
+                    <p>In a historic moment for cryptocurrency markets, Bitcoin surged past $100,000 today, marking a new all-time high...</p>
+                    <div class="article-meta">
+                        <span>Rohit Sarkar</span>
+                        <span>•</span>
+                        <span>Nov 10, 2025</span>
+                        <span>•</span>
+                        <span>5 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Regular Articles -->
+            <article class="article-card">
+                <div class="article-image ai-bg">🤖</div>
+                <div class="article-content">
+                    <span class="category">ARTIFICIAL INTELLIGENCE</span>
+                    <h2><a href="article-ai.html">AI Agents Are Reshaping the Enterprise Software Landscape</a></h2>
+                    <p>Large language models have evolved from chatbots to autonomous agents capable of complex workflows...</p>
+                    <div class="article-meta">
+                        <span>Rohit Sarkar</span>
+                        <span>•</span>
+                        <span>Nov 8, 2025</span>
+                        <span>•</span>
+                        <span>4 min read</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="article-card">
+                <div class="article-image defi-bg">💰</div>
+                <div class="article-content">
+                    <span class="category">DEFI</span>
+                    <h2><a href="article-defi.html">The State of DeFi in 2025: What's Working and What's Not</a></h2>
+                    <p>Decentralized finance has matured significantly, but challenges around UX and regulation remain...</p>
+                    <div class="article-meta">
+                        <span>Rohit Sarkar</span>
+                        <span>•</span>
+                        <span>Nov 5, 2025</span>
+                        <span>•</span>
+                        <span>6 min read</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Rohit's Blog. All rights reserved.</p>
+            <p>Powered by Canvas Protocol for human verification</p>
+        </div>
+    </footer>
+
+    <script>
+        // Deep's SDK will check for verification token here
+        // If no token found, SDK shows CAPTCHA overlay
+        // After verification, token is stored and user can browse freely
+        
+        console.log('[BLOG] Homepage loaded');
+        console.log('[SDK] Deep will add: Check localStorage for "canvas_verified" token');
+        console.log('[SDK] If no token → show CAPTCHA overlay');
+        console.log('[SDK] If token exists → user verified, allow access');
+    </script>
+
+    <!-- Deep will add Canvas SDK here -->
+    <!-- <script src="https://sdk.canvas-protocol.xyz/canvas-sdk.js"></script> -->
+    <!-- <script>
+        CanvasProtocol.init({
+            publisherId: 'rohits-blog',
+            mode: 'site-gate',
+            onSuccess: function(result) {
+                // Store verification token
+                localStorage.setItem('canvas_verified', 'true');
+                localStorage.setItem('canvas_verified_timestamp', Date.now());
+            }
+        });
+    </script> -->
+</body>
+</html>
